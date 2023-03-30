@@ -11,7 +11,7 @@ Requirements
 🏢 Running the microservice with Grafana, Grafana Tempo, and Prometheus as observability backend.
 1. Start the containers using docker: docker compose up -d
 2. Run the file:  run.sh
-3.Access the application at http://localhost:8282 (Username: user, Password: generated in the terminal after compilation)
+3.Access the application at http://localhost:8282: Username: user, Password: generated in the terminal after compilation
 4. Access the Grafana UI: http://localhost:3000
 
 **REPORT**:
