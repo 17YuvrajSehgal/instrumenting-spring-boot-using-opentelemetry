@@ -15,7 +15,6 @@ Requirements
 4. Access the Grafana UI: http://localhost:3000
 
 **REPORT**:
-ANSWER 2: 
 The application has been instrumented using docker. The process creates images in the docker and sets up various visualization tools on the local host. I have used Grafana for holding the traces and Prometheus for visualization. My collector exposes endpoints at local host 5555 and 6666 from where Grafana and Prometheus scape the data.
 When we first run the app, the output looks like this: 
  ![image](https://user-images.githubusercontent.com/81456735/228794621-ba6a5ef4-82e3-48ea-9867-854971feec99.png)
